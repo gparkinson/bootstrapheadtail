@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>headTail - Best Massage in Portland</title>
-	
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/headTail.css">
 
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>headTail - Best Massage in Portland</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/headTail.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 <body>
 
 	<! Header with background image (image is defined in css/!>
 
-	<header>
-	<div class="headerColumnone">
-		<img src="images/massageLogo.gif" alt="logoImage" class="logoTop">
-		</div>
-		<div id="hTHeader">
-			<div class="companyName">Head and Tail Massage</div>
-			<div class="companyMission">Reaching your theraputic goals</div>
-
-	</header>
-
+<div class="container">
+  <div class="jumbotron">
+  	<img src="images/massageLogo.gif">
+    <h1>Head and Tail Massage</h1> 
+  </div>
+  <p>Reaching your theraputic goals</p> 
+</div>
 
 	<! Links to sections in page /!>	
 
 	<nav id="hTNav">
 		<ul>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#offerings">Offerings</a></li>
-			<li><a href="http://www.massagetherapy.com/learnmore/" target="_blank">About Massage</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#feedback">Feedback</a></li>
-			<li><a href="#map">Map</a></li>
-			<li><a href="#forms">Forms</a></li>
+			<li><a href="#about" class="btn" role="button">About Me</a></li>
+			<li><a href="#offerings" class="btn" role="button">Offerings</a></li>
+			<li><a href="http://www.massagetherapy.com/learnmore/" target="_blank" class="btn" role="button">About Massage</a></li>
+			<li><a href="#contact" class="btn" role="button">Contact</a></li>
+			<li><a href="#feedback" class="btn" role="button">Feedback</a></li>
+			<li><a href="#map" class="btn" role="button">Map</a></li>
+			<li><a href="#forms" class="btn" role="button">Forms</a></li>
 		</ul>
 	</nav>
 
@@ -149,6 +159,10 @@
 		Copyright 2012-2015 By Heads and Tails Massage. All Rights Reserved
 	</footer>
 
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 
